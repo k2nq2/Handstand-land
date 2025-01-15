@@ -1,0 +1,54 @@
+.c5-guarantee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(21deg, #a72a0b 0%, #df5735 100%);
+    border: 1px solid #bf3e1d;
+    border-radius: 0.5rem;
+    width: 37rem;
+    height: 15rem;
+    gap: 1.9rem;
+    margin-top: 3rem;
+}
+.c5-text-wrap{
+ display: flex;
+ flex-direction: column;
+ margin-top: -1.2rem;
+}
+.c5-top-text{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 180%;
+    text-transform: uppercase;
+    color: #fff;
+}
+.c5-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 129%;
+color: #fff;
+}
+
+.c5-btn{
+    background: linear-gradient(180deg, #fff2af 0%, #dcc290 100%);
+    border-radius: 1rem;
+    stroke-width: 2px;
+    stroke: rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 4px 20px 0 #fff6d6;
+    width: 36.9rem;
+    height: 8.8rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 137%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4d4837;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
